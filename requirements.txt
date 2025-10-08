@@ -8,3 +8,4 @@ datetime
 pytz
 streamlit
 joblib
+scikit-learn==1.6.1
