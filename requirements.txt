@@ -1,0 +1,11 @@
+asyncio
+aiohttp
+pandas
+understat
+numpy
+warnings
+nest_asyncio
+datetime
+pytz
+streamlit
+joblib
