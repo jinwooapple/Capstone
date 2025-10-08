@@ -71,8 +71,8 @@ def epl():
     # 시간대 변환 (한국 → 영국)
     # ======================
 
-    os.chdir('C:\\Users\\박진우\\Desktop\\Cap\\data')
-    x = pd.read_csv('PL_player.csv',encoding="utf-8")
+
+    x = pd.read_csv('EPL/PL_player.csv',encoding="utf-8")
 
 
     # 두 컬럼 생성 (왼쪽: 홈팀, 오른쪽: 원정팀)
@@ -183,9 +183,8 @@ def epl():
                 df_params=pd.DataFrame(df_params)
 
                 # 모델 불러와서 변수 넣고 예측하기
-                os.chdir('C:\\Users\\박진우\\Desktop\\Cap\\model')
-                model = joblib.load('model.joblib')
-                scaler = joblib.load('scaler.joblib')
+                model = joblib.load('EPL/model.joblib')
+                scaler = joblib.load('EPL/scaler.joblib')
                 df_scaled=scaler.transform(df_params)
                 result=model.predict(df_scaled).item()
             st.success('Done!')
@@ -213,3 +212,4 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
