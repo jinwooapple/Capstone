@@ -1,0 +1,552 @@
+player_name,back_number,team,normalized_player_name,rating
+David Raya,1,arsenal,david raya,6.75
+William Saliba,2,arsenal,william saliba,7.06
+Cristhian Mosquera,3,arsenal,cristhian mosquera,6.55
+Ben White,4,arsenal,ben white,6.808333333333334
+Piero HincapiÃÂ©,5,arsenal,piero hincapie,6.808333333333334
+Gabriel,6,arsenal,gabriel,7.25
+Bukayo Saka,7,arsenal,bukayo saka,7.09
+Martin ÃÂdegaard,8,arsenal,martin odegaard,6.59
+Gabriel Jesus,9,arsenal,gabriel jesus,6.808333333333334
+Eberechi Eze,10,arsenal,eberechi eze,6.98
+Gabriel Martinelli,11,arsenal,gabriel martinelli,6.43
+Jurrien Timber,12,arsenal,jurrien timber,7.43
+Kepa Arrizabalaga,13,arsenal,kepa arrizabalaga,6.808333333333334
+Viktor GyÃÂ¶keres,14,arsenal,viktor gyokeres,6.88
+Christian NÃÂ¸rgaard,16,arsenal,christian norgaard,6.808333333333334
+Leandro Trossard,19,arsenal,leandro trossard,6.67
+Noni Madueke,20,arsenal,noni madueke,6.63
+Ethan Nwaneri,22,arsenal,ethan nwaneri,6.3
+Mikel Merino,23,arsenal,mikel merino,6.55
+Kai Havertz,29,arsenal,kai havertz,6.808333333333334
+Riccardo Calafiori,33,arsenal,riccardo calafiori,6.93
+MartÃÂ­n Zubimendi,36,arsenal,martin zubimendi,7.11
+Declan Rice,41,arsenal,declan rice,7.14
+Myles Lewis-Skelly,49,arsenal,myles lewis-skelly,6.21
+Max Dowman,56,arsenal,max dowman,6.808333333333334
+Matty Cash,2,aston villa,matty cash,6.78
+Victor LindelÃÂ¶f,3,aston villa,victor lindelof,6.534375
+Ezri Konsa,4,aston villa,ezri konsa,6.48
+Tyrone Mings,5,aston villa,tyrone mings,6.83
+Ross Barkley,6,aston villa,ross barkley,6.534375
+John McGinn,7,aston villa,john mcginn,6.65
+Youri Tielemans,8,aston villa,youri tielemans,6.4
+Harvey Elliott,9,aston villa,harvey elliott,6.534375
+Emi BuendÃÂ­a,10,aston villa,emi buendia,6.45
+Ollie Watkins,11,aston villa,ollie watkins,6.48
+Lucas Digne,12,aston villa,lucas digne,6.65
+Pau Torres,14,aston villa,pau torres,6.6
+AndrÃÂ©s GarcÃÂ­a,16,aston villa,andres garcia,6.534375
+Donyell Malen,17,aston villa,donyell malen,6.37
+Jadon Sancho,19,aston villa,jadon sancho,6.534375
+Jamaldeen Jimoh-Aloba,20,aston villa,jamaldeen jimoh-aloba,6.534375
+Ian Maatsen,22,aston villa,ian maatsen,6.29
+Emiliano MartÃÂ­nez,23,aston villa,emiliano martinez,6.58
+Amadou Onana,24,aston villa,amadou onana,6.534375
+Lamare Bogarde,26,aston villa,lamare bogarde,6.21
+Morgan Rogers,27,aston villa,morgan rogers,6.48
+Evann Guessand,29,aston villa,evann guessand,6.42
+Marco Bizot,40,aston villa,marco bizot,6.534375
+Boubacar Kamara,44,aston villa,boubacar kamara,6.88
+Djordje PetroviÃÂ,1,bournemouth,djordje petrovic,6.68
+JuliÃÂ¡n Araujo,2,bournemouth,julian araujo,6.741333333333333
+Adrien Truffert,3,bournemouth,adrien truffert,6.92
+Lewis Cook,4,bournemouth,lewis cook,6.741333333333333
+Marcos Senesi,5,bournemouth,marcos senesi,7.32
+David Brooks,7,bournemouth,david brooks,6.68
+Alex Scott,8,bournemouth,alex scott,6.89
+Evanilson,9,bournemouth,evanilson,6.71
+Ryan Christie,10,bournemouth,ryan christie,6.3
+Ben Doak,11,bournemouth,ben doak,6.741333333333333
+Tyler Adams,12,bournemouth,tyler adams,6.85
+Adam Smith,15,bournemouth,adam smith,6.741333333333333
+Marcus Tavernier,16,bournemouth,marcus tavernier,6.69
+Amine Adli,17,bournemouth,amine adli,6.56
+BafodÃÂ© DiakitÃÂ©,18,bournemouth,bafode diakite,6.85
+Justin Kluivert,19,bournemouth,justin kluivert,6.44
+Julio Soler,20,bournemouth,julio soler,6.741333333333333
+Romain Faivre,21,bournemouth,romain faivre,6.741333333333333
+Eli Junior Kroupi,22,bournemouth,eli junior kroupi,6.23
+James Hill,23,bournemouth,james hill,6.37
+Antoine Semenyo,24,bournemouth,antoine semenyo,7.63
+Hamed Junior TraorÃÂ©,25,bournemouth,hamed junior traore,6.741333333333333
+Enes ÃÂnal,26,bournemouth,enes unal,6.741333333333333
+Owen Bevan,35,bournemouth,owen bevan,6.741333333333333
+Will Dennis,40,bournemouth,will dennis,6.741333333333333
+Veljko Milosavljevic?,44,bournemouth,veljko milosavljevic,6.741333333333333
+Matai Akinmboni,45,bournemouth,matai akinmboni,6.741333333333333
+Callan McKenna,46,bournemouth,callan mckenna,6.741333333333333
+Remy Rees-Dottin,50,bournemouth,remy rees-dottin,6.741333333333333
+Caoimhin Kelleher,1,brentford,caoimhin kelleher,6.56
+Aaron Hickey,2,brentford,aaron hickey,6.1
+Rico Henry,3,brentford,rico henry,6.13
+Sepp van den Berg,4,brentford,sepp van den berg,6.49
+Ethan Pinnock,5,brentford,ethan pinnock,6.449411764705882
+Jordan Henderson,6,brentford,jordan henderson,6.45
+Kevin Schade,7,brentford,kevin schade,6.6
+Mathias Jensen,8,brentford,mathias jensen,6.26
+Igor Thiago,9,brentford,igor thiago,7.0
+Reiss Nelson,11,brentford,reiss nelson,6.449411764705882
+HÃÂ¡kon Rafn Valdimarsson,12,brentford,hakon rafn valdimarsson,6.449411764705882
+Matthew Cox,13,brentford,matthew cox,6.449411764705882
+Fabio Carvalho,14,brentford,fabio carvalho,6.07
+Frank Onyeka,15,brentford,frank onyeka,6.26
+Antoni Milambo,17,brentford,antoni milambo,6.449411764705882
+Yehor Yarmolyuk,18,brentford,yehor yarmolyuk,6.57
+Dango Ouattara,19,brentford,dango ouattara,6.45
+Kristoffer Ajer,20,brentford,kristoffer ajer,6.39
+Nathan Collins,22,brentford,nathan collins,6.54
+Keane Lewis-Potter,23,brentford,keane lewis-potter,6.3
+Mikkel Damsgaard,24,brentford,mikkel damsgaard,6.76
+Myles Peart-Harris,25,brentford,myles peart-harris,6.449411764705882
+Yunus Emre Konak,26,brentford,yunus emre konak,6.449411764705882
+Vitaly Janelt,27,brentford,vitaly janelt,6.449411764705882
+Ellery Balcombe,31,brentford,ellery balcombe,6.449411764705882
+Paris Maghoma,32,brentford,paris maghoma,6.449411764705882
+Michael Kayode,33,brentford,michael kayode,6.71
+Gustavo Nunes,39,brentford,gustavo nunes,6.449411764705882
+Julian Eyestone,41,brentford,julian eyestone,6.449411764705882
+Benjamin Arthur,43,brentford,benjamin arthur,6.449411764705882
+Romelle Donovan,45,brentford,romelle donovan,6.449411764705882
+Bart Verbruggen,1,brighton,bart verbruggen,6.27
+Adam Webster,4,brighton,adam webster,6.540625
+Lewis Dunk,5,brighton,lewis dunk,6.57
+Jan Paul van Hecke,6,brighton,jan paul van hecke,6.7
+Solly March,7,brighton,solly march,6.540625
+Brajan Gruda,8,brighton,brajan gruda,6.48
+Stefanos Tzimas,9,brighton,stefanos tzimas,6.540625
+Georginio Rutter,10,brighton,georginio rutter,6.59
+Yankuba Minteh,11,brighton,yankuba minteh,7.32
+Jack Hinshelwood,13,brighton,jack hinshelwood,6.540625
+Tom Watson,14,brighton,tom watson,6.540625
+Carlos Baleba,17,brighton,carlos baleba,6.34
+Danny Welbeck,18,brighton,danny welbeck,6.04
+Charalampos Kostoulas,19,brighton,charalampos kostoulas,6.540625
+James Milner,20,brighton,james milner,6.3
+Olivier Boscagli,21,brighton,olivier boscagli,6.540625
+Kaoru Mitoma,22,brighton,kaoru mitoma,6.62
+Jason Steele,23,brighton,jason steele,6.540625
+Ferdi KadÃÂ±oÃÂlu,24,brighton,ferdi kadioglu,6.37
+Diego GÃÂ³mez,25,brighton,diego gomez,6.38
+Yasin Ayari,26,brighton,yasin ayari,6.75
+Mats Wieffer,27,brighton,mats wieffer,6.72
+Maxim De Cuyper,29,brighton,maxim de cuyper,6.42
+JoÃÂ«l Veltman,34,brighton,joel veltman,6.78
+Tom McGill,38,brighton,tom mcgill,6.540625
+Diego Coppola,42,brighton,diego coppola,6.540625
+Martin DÃÂºbravka,1,burnley,martin dubravka,6.86
+Kyle Walker,2,burnley,kyle walker,6.35
+Quilindschy Hartman,3,burnley,quilindschy hartman,6.79
+Joe Worrall,4,burnley,joe worrall,6.23
+Maxime EstÃÂ¨ve,5,burnley,maxime esteve,6.34
+Axel Tuanzebe,6,burnley,axel tuanzebe,6.451874999999999
+Jacob Bruun Larsen,7,burnley,jacob bruun larsen,6.2
+Lesley Ugochukwu,8,burnley,lesley ugochukwu,6.33
+Lyle Foster,9,burnley,lyle foster,6.5
+Marcus Edwards,10,burnley,marcus edwards,6.451874999999999
+Jaidon Anthony,11,burnley,jaidon anthony,6.89
+Bashir Humphreys,12,burnley,bashir humphreys,6.451874999999999
+Max WeiÃÂ,13,burnley,max weiss,6.451874999999999
+Connor Roberts,14,burnley,connor roberts,6.451874999999999
+Florentino Luis,16,burnley,florentino luis,6.71
+Loum Tchaouna,17,burnley,loum tchaouna,6.3
+Hjalmar Ekdal,18,burnley,hjalmar ekdal,6.52
+Zian Flemming,19,burnley,zian flemming,6.04
+Oliver Sonne,22,burnley,oliver sonne,6.451874999999999
+Lucas Pires,23,burnley,lucas pires,6.451874999999999
+Josh Cullen,24,burnley,josh cullen,6.94
+Zeki Amdouni,25,burnley,zeki amdouni,6.451874999999999
+Armando Broja,27,burnley,armando broja,6.451874999999999
+Hannibal Mejbri,28,burnley,hannibal mejbri,6.12
+Josh Laurent,29,burnley,josh laurent,6.11
+Mike TrÃÂ©sor,31,burnley,mike tresor,6.451874999999999
+VÃÂ¡clav HladkÃÂ½,32,burnley,vaclav hladky,6.451874999999999
+Jaydon Banel,34,burnley,jaydon banel,6.451874999999999
+Ashley Barnes,35,burnley,ashley barnes,6.451874999999999
+Jordan Beyer,36,burnley,jordan beyer,6.451874999999999
+Hannes Delcroix,44,burnley,hannes delcroix,6.451874999999999
+Enock Agyei,48,burnley,enock agyei,6.451874999999999
+Oliver Pimlott,54,burnley,oliver pimlott,6.451874999999999
+Robert SÃÂ¡nchez,1,chelsea,robert sanchez,6.35
+Marc Cucurella,3,chelsea,marc cucurella,6.94
+Tosin Adarabioyo,4,chelsea,tosin adarabioyo,7.04
+BenoÃÂ®t Badiashile,5,chelsea,benoit badiashile,6.769333333333334
+Levi Colwill,6,chelsea,levi colwill,6.769333333333334
+Pedro Neto,7,chelsea,pedro neto,6.75
+Enzo FernÃÂ¡ndez,8,chelsea,enzo fernandez,6.89
+Liam Delap,9,chelsea,liam delap,6.769333333333334
+Cole Palmer,10,chelsea,cole palmer,6.769333333333334
+Jamie Gittens,11,chelsea,jamie gittens,6.29
+Filip JÃÂ¶rgensen,12,chelsea,filip jorgensen,6.769333333333334
+DÃÂ¡rio Essugo,14,chelsea,dario essugo,6.769333333333334
+Andrey Santos,17,chelsea,andrey santos,6.28
+JoÃÂ£o Pedro,20,chelsea,joao pedro,7.06
+Jorrel Hato,21,chelsea,jorrel hato,6.13
+Trevoh Chalobah,23,chelsea,trevoh chalobah,7.28
+Reece James,24,chelsea,reece james,6.75
+MoisÃÂ©s Caicedo,25,chelsea,moises caicedo,7.48
+Malo Gusto,27,chelsea,malo gusto,6.4
+Wesley Fofana,29,chelsea,wesley fofana,6.769333333333334
+Tyrique George,32,chelsea,tyrique george,6.769333333333334
+Josh Acheampong,34,chelsea,josh acheampong,6.769333333333334
+Marc Guiu,38,chelsea,marc guiu,6.94
+EstÃÂªvÃÂ£o,41,chelsea,estevao,6.96
+Gabriel Slonina,44,chelsea,gabriel slonina,6.769333333333334
+Romeo Lavia,45,chelsea,romeo lavia,6.769333333333334
+Alejandro Garnacho,49,chelsea,alejandro garnacho,6.769333333333334
+Facundo Buonanotte,-,chelsea,facundo buonanotte,6.769333333333334
+Dean Henderson,1,crystal palace,dean henderson,6.73
+Daniel MuÃÂ±oz,2,crystal palace,daniel munoz,7.3
+Tyrick Mitchell,3,crystal palace,tyrick mitchell,7.05
+Maxence Lacroix,5,crystal palace,maxence lacroix,7.15
+Marc GuÃÂ©hi,6,crystal palace,marc guehi,7.29
+IsmaÃÂ¯la Sarr,7,crystal palace,ismaila sarr,7.09
+Jefferson Lerma,8,crystal palace,jefferson lerma,6.22
+Eddie Nketiah,9,crystal palace,eddie nketiah,6.841428571428572
+YÃÂ©remi Pino,10,crystal palace,yeremi pino,6.57
+Chrisantus Uche,12,crystal palace,chrisantus uche,6.841428571428572
+Jean-Philippe Mateta,14,crystal palace,jean-philippe mateta,6.74
+Nathaniel Clyne,17,crystal palace,nathaniel clyne,6.841428571428572
+Daichi Kamada,18,crystal palace,daichi kamada,7.01
+Will Hughes,19,crystal palace,will hughes,6.51
+Adam Wharton,20,crystal palace,adam wharton,6.87
+Romain Esse,21,crystal palace,romain esse,6.841428571428572
+Jaydee Canvot,23,crystal palace,jaydee canvot,6.841428571428572
+Borna Sosa,24,crystal palace,borna sosa,6.841428571428572
+Chris Richards,26,crystal palace,chris richards,7.09
+Cheick DoucourÃÂ©,28,crystal palace,cheick doucoure,6.841428571428572
+Naouirou Ahamada,29,crystal palace,naouirou ahamada,6.841428571428572
+Remi Matthews,31,crystal palace,remi matthews,6.841428571428572
+Chadi Riad,34,crystal palace,chadi riad,6.841428571428572
+Kaden Rodney,42,crystal palace,kaden rodney,6.841428571428572
+Walter BenÃÂ­tez,44,crystal palace,walter benitez,6.841428571428572
+Jesurun Rak-Sakyi,49,crystal palace,jesurun rak-sakyi,6.841428571428572
+Justin Devenny,55,crystal palace,justin devenny,6.16
+Seb Williams,58,crystal palace,seb williams,6.841428571428572
+Rio Cardines,59,crystal palace,rio cardines,6.841428571428572
+Jordan Pickford,1,everton,jordan pickford,6.75
+Nathan Patterson,2,everton,nathan patterson,6.780714285714287
+Michael Keane,5,everton,michael keane,7.01
+James Tarkowski,6,everton,james tarkowski,7.11
+Dwight McNeil,7,everton,dwight mcneil,6.780714285714287
+Beto,9,everton,beto,6.45
+Iliman Ndiaye,10,everton,iliman ndiaye,7.19
+Thierno Barry,11,everton,thierno barry,6.15
+Mark Travers,12,everton,mark travers,6.780714285714287
+Jake O'Brien,15,everton,jake o'brien,6.75
+Vitaliy Mykolenko,16,everton,vitaliy mykolenko,6.41
+Jack Grealish,18,everton,jack grealish,7.38
+Tyler Dibling,20,everton,tyler dibling,6.780714285714287
+Kiernan Dewsbury-Hall,22,everton,kiernan dewsbury-hall,6.99
+SÃÂ©amus Coleman,23,everton,seamus coleman,6.780714285714287
+Carlos Alcaraz,24,everton,carlos alcaraz,6.25
+Idrissa Gueye,27,everton,idrissa gueye,6.63
+Tom King,31,everton,tom king,6.780714285714287
+Jarrad Branthwaite,32,everton,jarrad branthwaite,6.780714285714287
+Merlin RÃÂ¶hl,34,everton,merlin rohl,6.780714285714287
+James Garner,37,everton,james garner,7.2
+Adam Aznou,39,everton,adam aznou,6.780714285714287
+Tim Iroegbunam,42,everton,tim iroegbunam,6.66
+Harry Tyrer,53,everton,harry tyrer,6.780714285714287
+Bernd Leno,1,fulham,bernd leno,6.71
+Kenny Tete,2,fulham,kenny tete,6.9
+Calvin Bassey,3,fulham,calvin bassey,6.28
+Joachim Andersen,5,fulham,joachim andersen,6.88
+Harrison Reed,6,fulham,harrison reed,6.454705882352941
+RaÃÂºl JimÃÂ©nez,7,fulham,raul jimenez,6.23
+Harry Wilson,8,fulham,harry wilson,6.55
+Rodrigo Muniz,9,fulham,rodrigo muniz,6.45
+Tom Cairney,10,fulham,tom cairney,6.1
+Adama TraorÃÂ©,11,fulham,adama traore,6.13
+Jorge Cuenca,15,fulham,jorge cuenca,6.454705882352941
+Sander Berge,16,fulham,sander berge,6.29
+Alex Iwobi,17,fulham,alex iwobi,6.63
+Jonah Kusi-Asare,18,fulham,jonah kusi-asare,6.454705882352941
+Samuel Chukwueze,19,fulham,samuel chukwueze,6.454705882352941
+SaÃÂ¡a LukiÃÂ,20,fulham,sasa lukic,6.62
+Timothy Castagne,21,fulham,timothy castagne,6.52
+Kevin,22,fulham,kevin,6.29
+Benjamin Lecomte,23,fulham,benjamin lecomte,6.454705882352941
+Joshua King,24,fulham,joshua king,6.22
+Ryan Sessegnon,30,fulham,ryan sessegnon,6.73
+Issa Diop,31,fulham,issa diop,6.454705882352941
+Emile Smith Rowe,32,fulham,emile smith rowe,6.2
+Antonee Robinson,33,fulham,antonee robinson,6.454705882352941
+Lucas Perri,1,leeds,lucas perri,6.521176470588236
+Jayden Bogle,2,leeds,jayden bogle,6.66
+Gabriel Gudmundsson,3,leeds,gabriel gudmundsson,6.48
+Ethan Ampadu,4,leeds,ethan ampadu,6.65
+Pascal Struijk,5,leeds,pascal struijk,6.6
+Joe Rodon,6,leeds,joe rodon,6.99
+Daniel James,7,leeds,daniel james,6.05
+Sean Longstaff,8,leeds,sean longstaff,7.07
+Dominic Calvert-Lewin,9,leeds,dominic calvert-lewin,6.68
+JoÃÂ«l Piroe,10,leeds,joel piroe,6.521176470588236
+Brenden Aaronson,11,leeds,brenden aaronson,6.61
+Lukas Nmecha,14,leeds,lukas nmecha,6.12
+Jaka Bijol,15,leeds,jaka bijol,6.521176470588236
+Illan Meslier,16,leeds,illan meslier,6.521176470588236
+Anton Stach,18,leeds,anton stach,6.82
+Noah Okafor,19,leeds,noah okafor,6.88
+Jack Harrison,20,leeds,jack harrison,6.21
+Alex Cairns,21,leeds,alex cairns,6.521176470588236
+Ao Tanaka,22,leeds,ao tanaka,6.04
+Sebastiaan Bornauw,23,leeds,sebastiaan bornauw,6.521176470588236
+James Justin,24,leeds,james justin,6.521176470588236
+Sam Byram,25,leeds,sam byram,6.521176470588236
+Karl Darlow,26,leeds,karl darlow,6.6
+Wilfried Gnonto,29,leeds,wilfried gnonto,6.2
+Sam Chambers,42,leeds,sam chambers,6.521176470588236
+Ilia Gruev,44,leeds,ilia gruev,6.2
+Alisson Becker,1,liverpool,alisson becker,6.61
+Joe Gomez,2,liverpool,joe gomez,6.7173333333333325
+Wataru Endo,3,liverpool,wataru endo,6.15
+Virgil van Dijk,4,liverpool,virgil van dijk,7.14
+Ibrahima KonatÃÂ©,5,liverpool,ibrahima konate,6.88
+Milos Kerkez,6,liverpool,milos kerkez,6.63
+Florian Wirtz,7,liverpool,florian wirtz,6.51
+Dominik Szoboszlai,8,liverpool,dominik szoboszlai,7.02
+Alexander Isak,9,liverpool,alexander isak,6.7173333333333325
+Alexis Mac Allister,10,liverpool,alexis mac allister,6.47
+Mohamed Salah,11,liverpool,mohamed salah,6.7
+Conor Bradley,12,liverpool,conor bradley,6.29
+Federico Chiesa,14,liverpool,federico chiesa,6.41
+Giovanni Leoni,15,liverpool,giovanni leoni,6.7173333333333325
+Curtis Jones,17,liverpool,curtis jones,6.37
+Cody Gakpo,18,liverpool,cody gakpo,7.16
+Hugo Ekitike,22,liverpool,hugo ekitike,7.11
+Giorgi Mamardashvili,25,liverpool,giorgi mamardashvili,6.7173333333333325
+Andrew Robertson,26,liverpool,andrew robertson,6.7173333333333325
+Freddie Woodman,28,liverpool,freddie woodman,6.7173333333333325
+Jeremie Frimpong,30,liverpool,jeremie frimpong,6.7173333333333325
+Ryan Gravenberch,38,liverpool,ryan gravenberch,7.31
+Trey Nyoni,42,liverpool,trey nyoni,6.7173333333333325
+Stefan BajÃÂetiÃÂ,43,liverpool,stefan bajcetic,6.7173333333333325
+Rhys Williams,46,liverpool,rhys williams,6.7173333333333325
+Calvin Ramsay,47,liverpool,calvin ramsay,6.7173333333333325
+Rio Ngumoha,73,liverpool,rio ngumoha,6.7173333333333325
+James Trafford,1,manchester city,james trafford,6.788333333333333
+RÃÂºben Dias,3,manchester city,ruben dias,6.76
+Tijjani Reijnders,4,manchester city,tijjani reijnders,7.01
+John Stones,5,manchester city,john stones,6.47
+Nathan AkÃÂ©,6,manchester city,nathan ake,6.21
+Omar Marmoush,7,manchester city,omar marmoush,6.788333333333333
+Mateo KovaÃÂiÃÂ,8,manchester city,mateo kovacic,6.788333333333333
+Erling HÃÂ¥land,9,manchester city,erling haland,7.89
+Rayan Cherki,10,manchester city,rayan cherki,6.788333333333333
+JÃÂ©rÃÂ©my Doku,11,manchester city,jeremy doku,7.1
+Marcus Bettinelli,13,manchester city,marcus bettinelli,6.788333333333333
+Nico GonzÃÂ¡lez,14,manchester city,nico gonzalez,6.9
+Rodri,16,manchester city,rodri,6.68
+Stefan Ortega,18,manchester city,stefan ortega,6.788333333333333
+Bernardo Silva,20,manchester city,bernardo silva,6.59
+Rayan AÃÂ¯t-Nouri,21,manchester city,rayan ait-nouri,6.788333333333333
+JoÃÂ¡ko Gvardiol,24,manchester city,josko gvardiol,7.07
+Gianluigi Donnarumma,25,manchester city,gianluigi donnarumma,6.81
+SÃÂ¡vio,26,manchester city,savio,6.13
+Matheus Nunes,27,manchester city,matheus nunes,6.7
+Nico O'Reilly,33,manchester city,nico o'reilly,6.84
+Kalvin Phillips,44,manchester city,kalvin phillips,6.788333333333333
+Abdukodir Khusanov,45,manchester city,abdukodir khusanov,6.73
+Phil Foden,47,manchester city,phil foden,7.02
+Oscar Bobb,52,manchester city,oscar bobb,6.81
+Rico Lewis,82,manchester city,rico lewis,6.47
+Josh Wilson-Esbrand,97,manchester city,josh wilson-esbrand,6.788333333333333
+Altay BayÃÂ±ndÃÂ±r,1,manchester united,altay bayindir,6.13
+Diogo Dalot,2,manchester united,diogo dalot,6.52
+Noussair Mazraoui,3,manchester united,noussair mazraoui,6.5356250000000005
+Matthijs de Ligt,4,manchester united,matthijs de ligt,6.95
+Harry Maguire,5,manchester united,harry maguire,6.15
+Lisandro MartÃÂ­nez,6,manchester united,lisandro martinez,6.5356250000000005
+Mason Mount,7,manchester united,mason mount,6.64
+Bruno Fernandes,8,manchester united,bruno fernandes,6.88
+Matheus Cunha,10,manchester united,matheus cunha,6.61
+Joshua Zirkzee,11,manchester united,joshua zirkzee,6.5356250000000005
+Tyrell Malacia,12,manchester united,tyrell malacia,6.5356250000000005
+Patrick Dorgu,13,manchester united,patrick dorgu,6.85
+Leny Yoro,15,manchester united,leny yoro,6.47
+Amad Diallo,16,manchester united,amad diallo,6.81
+Casemiro,18,manchester united,casemiro,6.43
+Bryan Mbeumo,19,manchester united,bryan mbeumo,6.67
+Thomas Heaton,22,manchester united,thomas heaton,6.5356250000000005
+Luke Shaw,23,manchester united,luke shaw,6.36
+AndrÃÂ© Onana,24,manchester united,andre onana,6.5356250000000005
+Manuel Ugarte,25,manchester united,manuel ugarte,6.27
+Ayden Heaven,26,manchester united,ayden heaven,6.5356250000000005
+Benjamin ÃÂ eÃÂ¡ko,30,manchester united,benjamin sesko,6.66
+Senne Lammens,31,manchester united,senne lammens,6.5356250000000005
+Chido Obi,32,manchester united,chido obi,6.5356250000000005
+Tyler Fredricson,33,manchester united,tyler fredricson,6.5356250000000005
+Diego LeÃÂ³n,35,manchester united,diego leon,6.5356250000000005
+Kobbie Mainoo,37,manchester united,kobbie mainoo,6.17
+Nick Pope,1,newcastle united,nick pope,7.16
+Kieran Trippier,2,newcastle united,kieran trippier,6.7
+Lewis Hall,3,newcastle united,lewis hall,6.702352941176471
+Sven Botman,4,newcastle united,sven botman,7.0
+Fabian SchÃÂ¤r,5,newcastle united,fabian schar,7.05
+Jamaal Lascelles,6,newcastle united,jamaal lascelles,6.702352941176471
+Joelinton,7,newcastle united,joelinton,6.62
+Sandro Tonali,8,newcastle united,sandro tonali,6.97
+Yoane Wissa,9,newcastle united,yoane wissa,6.702352941176471
+Anthony Gordon,10,newcastle united,anthony gordon,6.32
+Harvey Barnes,11,newcastle united,harvey barnes,6.19
+Malick Thiaw,12,newcastle united,malick thiaw,7.04
+Emil Krafth,17,newcastle united,emil krafth,6.702352941176471
+William Osula,18,newcastle united,william osula,6.19
+Anthony Elanga,20,newcastle united,anthony elanga,6.16
+Tino Livramento,21,newcastle united,tino livramento,6.76
+Jacob Murphy,23,newcastle united,jacob murphy,6.63
+John Ruddy,26,newcastle united,john ruddy,6.702352941176471
+Nick Woltemade,27,newcastle united,nick woltemade,7.05
+Joe Willock,28,newcastle united,joe willock,6.702352941176471
+Mark Gillespie,29,newcastle united,mark gillespie,6.702352941176471
+Harrison Ashby,30,newcastle united,harrison ashby,6.702352941176471
+Aaron Ramsdale,32,newcastle united,aaron ramsdale,6.702352941176471
+Dan Burn,33,newcastle united,dan burn,6.99
+Alex Murphy,37,newcastle united,alex murphy,6.702352941176471
+Cathal Heffernan,38,newcastle united,cathal heffernan,6.702352941176471
+Bruno GuimarÃÂ£es,39,newcastle united,bruno guimaraes,6.86
+Jacob Ramsey,41,newcastle united,jacob ramsey,6.702352941176471
+Lewis Miley,67,newcastle united,lewis miley,6.25
+Neco Williams,3,nottingham forest,neco williams,6.89
+Morato,4,nottingham forest,morato,6.26
+Murillo,5,nottingham forest,murillo,6.46
+Ibrahim SangarÃÂ©,6,nottingham forest,ibrahim sangare,6.14
+Callum Hudson-Odoi,7,nottingham forest,callum hudson-odoi,6.45
+Elliot Anderson,8,nottingham forest,elliot anderson,6.87
+Taiwo Awoniyi,9,nottingham forest,taiwo awoniyi,6.374705882352941
+Morgan Gibbs-White,10,nottingham forest,morgan gibbs-white,6.37
+Chris Wood,11,nottingham forest,chris wood,6.4
+Douglas Luiz,12,nottingham forest,douglas luiz,6.374705882352941
+John,13,nottingham forest,john,6.374705882352941
+Dan Ndoye,14,nottingham forest,dan ndoye,6.6
+Arnaud Kalimuendo,15,nottingham forest,arnaud kalimuendo,6.03
+NicolÃÂ¡s DomÃÂ­nguez,16,nottingham forest,nicolas dominguez,6.374705882352941
+Angus Gunn,18,nottingham forest,angus gunn,6.374705882352941
+Igor Jesus,19,nottingham forest,igor jesus,6.21
+Jota Silva,20,nottingham forest,jota silva,6.374705882352941
+Omari Hutchinson,21,nottingham forest,omari hutchinson,6.18
+Ryan Yates,22,nottingham forest,ryan yates,6.3
+Jair Cunha,23,nottingham forest,jair cunha,6.374705882352941
+James McAtee,24,nottingham forest,james mcatee,6.12
+Matz Sels,26,nottingham forest,matz sels,6.44
+Dilane Bakwa,29,nottingham forest,dilane bakwa,6.27
+Willy Boly,30,nottingham forest,willy boly,6.374705882352941
+Nikola MilenkoviÃÂ,31,nottingham forest,nikola milenkovic,6.38
+Ola Aina,34,nottingham forest,ola aina,6.374705882352941
+Oleksandr Zinchenko,35,nottingham forest,oleksandr zinchenko,6.374705882352941
+NicolÃÂ² Savona,37,nottingham forest,nicolo savona,6.374705882352941
+Zach Abbott,44,nottingham forest,zach abbott,6.374705882352941
+Anthony Patterson,1,sunderland,anthony patterson,6.737333333333334
+Dennis Cirkin,3,sunderland,dennis cirkin,6.737333333333334
+Dan Neil,4,sunderland,dan neil,6.737333333333334
+Daniel Ballard,5,sunderland,daniel ballard,7.24
+Timoth?e Pemb?l?,6,sunderland,timothee pembele,6.737333333333334
+Chemsdine Talbi,7,sunderland,chemsdine talbi,6.32
+Chris Rigg,11,sunderland,chris rigg,6.21
+Eliezer Mayenda,12,sunderland,eliezer mayenda,6.44
+Luke O'Nien,13,sunderland,luke o'nien,6.737333333333334
+Romaine Mundle,14,sunderland,romaine mundle,6.737333333333334
+Omar Alderete,15,sunderland,omar alderete,7.21
+Blondy Nna Noukeu,16,sunderland,blondy nna noukeu,6.737333333333334
+Reinildo Mandava,17,sunderland,reinildo mandava,6.69
+Wilson Isidor,18,sunderland,wilson isidor,6.59
+Habib Diarra,19,sunderland,habib diarra,6.38
+Nordi Mukiele,20,sunderland,nordi mukiele,7.26
+Simon Moore,21,sunderland,simon moore,6.737333333333334
+Robin Roefs,22,sunderland,robin roefs,7.12
+Simon Adingra,24,sunderland,simon adingra,6.33
+Arthur Masuaku,26,sunderland,arthur masuaku,6.737333333333334
+Noah Sadiki,27,sunderland,noah sadiki,6.57
+Enzo Le FÃÂ©e,28,sunderland,enzo le fee,6.5
+Ahmed Abdullahi,29,sunderland,ahmed abdullahi,6.737333333333334
+Trai Hume,32,sunderland,trai hume,6.84
+Leo Hjelde,33,sunderland,leo hjelde,6.737333333333334
+Granit Xhaka,34,sunderland,granit xhaka,7.36
+Ian Poveda,36,sunderland,ian poveda,6.737333333333334
+Zak Johnson,41,sunderland,zak johnson,6.737333333333334
+Aji Alese,42,sunderland,aji alese,6.737333333333334
+Joe Anderson,45,sunderland,joe anderson,6.737333333333334
+Harrison Jones,50,sunderland,harrison jones,6.737333333333334
+Guglielmo Vicario,1,tottenham,guglielmo vicario,6.95
+Radu DrÃÂgu?in,3,tottenham,radu dragusin,6.774374999999999
+Kevin Danso,4,tottenham,kevin danso,6.774374999999999
+JoÃÂ£o Palhinha,6,tottenham,joao palhinha,7.01
+Xavi Simons,7,tottenham,xavi simons,6.75
+Yves Bissouma,8,tottenham,yves bissouma,6.774374999999999
+Richarlison,9,tottenham,richarlison,6.97
+James Maddison,10,tottenham,james maddison,6.774374999999999
+Mathys Tel,11,tottenham,mathys tel,6.63
+Destiny Udogie,13,tottenham,destiny udogie,6.35
+Archie Gray,14,tottenham,archie gray,6.774374999999999
+Lucas Bergvall,15,tottenham,lucas bergvall,6.64
+Cristian Romero,17,tottenham,cristian romero,7.02
+Dominic Solanke,19,tottenham,dominic solanke,6.774374999999999
+Mohammed Kudus,20,tottenham,mohammed kudus,7.58
+Dejan Kulusevski,21,tottenham,dejan kulusevski,6.774374999999999
+Brennan Johnson,22,tottenham,brennan johnson,6.5
+Pedro Porro,23,tottenham,pedro porro,6.8
+Djed Spence,24,tottenham,djed spence,6.55
+Kota Takai,25,tottenham,kota takai,6.774374999999999
+Wilson Odobert,28,tottenham,wilson odobert,6.24
+Pape Matar Sarr,29,tottenham,pape matar sarr,7.05
+Rodrigo Bentancur,30,tottenham,rodrigo bentancur,6.47
+AntonÃÂ­n KinskÃÂ½,31,tottenham,antonin kinsky,6.774374999999999
+Ben Davies,33,tottenham,ben davies,6.774374999999999
+Micky van de Ven,37,tottenham,micky van de ven,6.88
+Randal Kolo Muani,39,tottenham,randal kolo muani,6.774374999999999
+Brandon Austin,40,tottenham,brandon austin,6.774374999999999
+Dane Scarlett,44,tottenham,dane scarlett,6.774374999999999
+Mads Hermansen,1,west ham,mads hermansen,6.09
+Kyle Walker-Peters,2,west ham,kyle walker-peters,6.55
+Max Kilman,3,west ham,max kilman,6.57
+Igor Julio,5,west ham,igor julio,6.47
+Crysencio Summerville,7,west ham,crysencio summerville,6.61
+James Ward-Prowse,8,west ham,james ward-prowse,6.49
+Callum Wilson,9,west ham,callum wilson,6.41
+Lucas PaquetÃÂ¡,10,west ham,lucas paqueta,6.89
+Niclas FÃÂ¼llkrug,11,west ham,niclas fullkrug,6.25
+El Hadji Malick Diouf,12,west ham,el hadji malick diouf,6.58
+Konstantinos Mavropanos,15,west ham,konstantinos mavropanos,6.76
+Luis Guilherme,17,west ham,luis guilherme,6.47
+Mateus Fernandes,18,west ham,mateus fernandes,6.34
+Jarrod Bowen,20,west ham,jarrod bowen,6.95
+Wes Foderingham,21,west ham,wes foderingham,6.47
+Alphonse Areola,23,west ham,alphonse areola,6.47
+Guido RodrÃÂ­guez,24,west ham,guido rodriguez,6.47
+Jean-Clair Todibo,25,west ham,jean-clair todibo,6.47
+Soungoutou Magassa,27,west ham,soungoutou magassa,6.15
+TomÃÂ¡ÃÂ¡ SouÃÂek,28,west ham,tomas soucek,6.21
+Aaron Wan-Bissaka,29,west ham,aaron wan-bissaka,6.47
+Oliver Scarles,30,west ham,oliver scarles,6.47
+Freddie Potts,32,west ham,freddie potts,6.47
+Andy Irving,39,west ham,andy irving,6.2
+George Earthy,40,west ham,george earthy,6.47
+Callum Marshall,50,west ham,callum marshall,6.47
+JosÃÂ© SÃÂ¡,1,wolverhampton wanderers,jose sa,5.76
+Matt Doherty,2,wolverhampton wanderers,matt doherty,6.410555555555556
+Hugo Bueno,3,wolverhampton wanderers,hugo bueno,6.85
+Santiago Bueno,4,wolverhampton wanderers,santiago bueno,7.07
+Marshall Munetsi,5,wolverhampton wanderers,marshall munetsi,6.51
+David MÃÂ¸ller Wolfe,6,wolverhampton wanderers,david moller wolfe,6.21
+AndrÃÂ©,7,wolverhampton wanderers,andre,6.24
+JoÃÂ£o Gomes,8,wolverhampton wanderers,joao gomes,6.57
+JÃÂ¶rgen Strand Larsen,9,wolverhampton wanderers,jorgen strand larsen,6.49
+Jhon Arias,10,wolverhampton wanderers,jhon arias,6.53
+Hwang Hee-Chan,11,wolverhampton wanderers,hwang hee-chan,6.36
+Emmanuel Agbadou,12,wolverhampton wanderers,emmanuel agbadou,6.48
+Tolu Arokodare,14,wolverhampton wanderers,tolu arokodare,6.18
+Yerson Mosquera,15,wolverhampton wanderers,yerson mosquera,6.410555555555556
+Ladislav KrejÃÂÃÂ­,17,wolverhampton wanderers,ladislav krejci,6.78
+Rodrigo Gomes,21,wolverhampton wanderers,rodrigo gomes,6.53
+Tawanda Chirewa,23,wolverhampton wanderers,tawanda chirewa,6.410555555555556
+Toti Gomes,24,wolverhampton wanderers,toti gomes,6.09
+Daniel Bentley,25,wolverhampton wanderers,daniel bentley,6.410555555555556
+Ki-Jana Hoever,26,wolverhampton wanderers,ki-jana hoever,6.410555555555556
+Jean-Ricner Bellegarde,27,wolverhampton wanderers,jean-ricner bellegarde,6.11
+Fer LÃÂ³pez,28,wolverhampton wanderers,fer lopez,6.24
+Enso GonzÃÂ¡lez,30,wolverhampton wanderers,enso gonzalez,6.410555555555556
+Sam Johnstone,31,wolverhampton wanderers,sam johnstone,6.410555555555556
+Mateus ManÃÂ©,36,wolverhampton wanderers,mateus mane,6.410555555555556
+Jackson Tchatchoua,38,wolverhampton wanderers,jackson tchatchoua,6.39
+Ji Min-Kyu,63,wolverhampton wanderers,ji min-kyu,6.410555555555556
