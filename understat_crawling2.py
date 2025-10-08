@@ -5,14 +5,14 @@
 
 
 import asyncio
-import json
+#import json
 import aiohttp
 import pandas as pd
 from understat import Understat
 import numpy as np
 import warnings
-import os
-from tqdm import tqdm
+#import os
+#from tqdm import tqdm
 warnings.filterwarnings('ignore')
 # os.chdir('C:\\Users\\박진우\\Desktop\\Cap\\data')
 
