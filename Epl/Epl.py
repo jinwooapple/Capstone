@@ -6,7 +6,7 @@ from datetime import datetime
 import joblib
 import numpy as np
 import streamlit as st
-import os
+#import os
 from datetime import datetime, date, time
 import pytz
 import processing_tools as pt
@@ -212,4 +212,5 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
 
