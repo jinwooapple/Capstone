@@ -61,11 +61,11 @@ def epl():
         col1, col2 = st.columns(2)  # 한 줄에 두 컬럼으로 배치
 
         # 날짜 선택
-        match_date = col1.date_input("날짜 선택", value=date(2020, 1, 1))
+        match_date = col1.date_input("Match date", value=date(2020, 1, 1))
 
 
         # 시간 선택
-        match_time = col2.time_input("시간 선택", value=time(12, 0))
+        match_time = col2.time_input("Match time", value=time(12, 0))
 
     # ======================
     # 시간대 변환 (한국 → 영국)
@@ -79,9 +79,9 @@ def epl():
     col1, col2 = st.columns(2)
 
     with col1:
-        st.subheader("🏠 홈 팀")
-        home_team = st.selectbox("홈 팀 선택", list(x['team'].unique()), key="home_team")
-        st.write(f"✅ {home_team} 선수 선택")
+        st.subheader("🏠 Home Team")
+        home_team = st.selectbox("Choose home team", list(x['team'].unique()), key="home_team")
+        # st.write(f"✅ {home_team} 선수 선택")
         
         selected_home_players =[]
         y=x[x["team"]==home_team][['normalized_player_name','back_number','rating']]
@@ -95,7 +95,7 @@ def epl():
 
             # multiselect 위젯
             selected_players = st.multiselect(
-                "선수 선택",
+                "Select players",
                 options=player_list,
                 default=[],
                 key="home_players"
@@ -106,9 +106,9 @@ def epl():
 
 
     with col2:
-        st.subheader("✈️ 원정 팀")
-        away_team = st.selectbox("원정 팀 선택", list(x['team'].unique()), key="away_team")
-        st.write(f"✅ {away_team} 선수 선택")
+        st.subheader("✈️ Away Team")
+        away_team = st.selectbox("Choose away team", list(x['team'].unique()), key="away_team")
+        # st.write(f"✅ {away_team} 선수 선택")
 
         selected_away_players =[]
         y=x[x["team"]==away_team][['normalized_player_name','back_number','rating']]
@@ -120,7 +120,7 @@ def epl():
 
             # multiselect 위젯
             selected_players = st.multiselect(
-                "선수 선택",
+                "Select players",
                 options=player_list,
                 default=[],
                 key="away_players"
@@ -212,6 +212,7 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
 
 
 
