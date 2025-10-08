@@ -1,7 +1,7 @@
-from datetime import datetime, date, time
+from datetime import datetime#, date, time
 import pytz
 import pandas as pd
-import asyncio
+#import asyncio
 import numpy as np
 
 def t(match_date, match_time):
@@ -144,5 +144,6 @@ def standardize_team_name(team_name):
     'Wolves': 'wolverhampton wanderers',
     'Ipswich': 'ipswich'
     }
+
 
     return team_name_mapping.get(team_name, team_name)  # 매핑된 값이 없으면 기존 값 유지
