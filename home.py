@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import Image
+#from PIL import Image
 
 
 def home_page():
@@ -31,4 +31,5 @@ def home_page():
     st.success("Thanks for visiting 🤩!!")
 
 if __name__ == "__main__":
+
     home_page()
