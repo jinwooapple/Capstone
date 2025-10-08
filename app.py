@@ -1,5 +1,5 @@
 import streamlit as st
-from Epl  import epl
+from Epl.Epl  import epl
 # from LaLiga.laliga import laliga
 # from SerieA.seriea import seriea
 from home import home_page
@@ -21,4 +21,5 @@ def main():
 
         
 if __name__ == "__main__":
+
     main()
