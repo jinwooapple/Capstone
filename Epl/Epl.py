@@ -224,7 +224,10 @@ def epl():
                 
         
         else:
-             st.write('Please enter both team names.')        
+             st.write('Please enter both team names.')
+        st.write(f'Home({home_team}) Win: {prob[0,0]:.2f}')
+        st.write(f'Away({away_team}) Win: {prob[0,1]:.2f}')
+        st.write(f'Draw: {prob[0,2]:.2f}')
                 
 
 
@@ -236,6 +239,7 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
 
 
 
