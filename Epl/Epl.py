@@ -11,6 +11,8 @@ from datetime import datetime, date, time
 import pytz
 import processing_tools as pt
 # os.chdir('C:\\Users\\박진우\\Desktop\\Cap\\data')
+import torch
+from pytorch_tabnet.tab_model import TabNetClassifier
 
 # # 매핑
 # team_name_mapping = {
@@ -178,15 +180,36 @@ def epl():
                 ASRA=np.mean(([r[1] for r in selected_away_players]))
                 
                 df_params={ 'away_prob_5': [away_prob_5], 'HTAG_5':[HTAG_5], 'B365H': [num1],
-                          'PSH':[num2], 'HTAG_5':[HTAG_5],'HSRA':[HSRA], 'ASRA':[ASRA]
+                          'PSH':[num2],'HSRA':[HSRA], 'ASRA':[ASRA]
                 }
                 df_params=pd.DataFrame(df_params)
 
                 # 모델 불러와서 변수 넣고 예측하기
-                model = joblib.load('Epl/model.joblib')
-                scaler = joblib.load('Epl/scaler.joblib')
-                df_scaled=scaler.transform(df_params)
-                result=model.predict(df_scaled).item()
+                # model = joblib.load('Epl/model.joblib')
+                # scaler = joblib.load('Epl/scaler.joblib')
+                # df_scaled=scaler.transform(df_params)
+                # result=model.predict(df_scaled).item()
+
+                # TabNet 모델
+                model = TabNetClassifier(
+                            n_d=2,
+                            n_a=4,
+                            n_steps=4,
+                            gamma=0.9,
+                            #optimizer_fn=None,
+                            optimizer_params={"lr": 0.04},
+                            mask_type='sparsemax',
+                            # scheduler_params={"step_size":20, "gamma":0.9},
+                            # scheduler_fn=torch.optim.lr_scheduler.StepLR,
+                )
+
+                # state_dict 로드
+                model.network.load_state_dict(torch.load("Epl/tabnet_model_state.pth", map_location='cpu'))
+
+                # 모드 전환
+                model.network.eval()
+                result=model.predict(df_params).item()
+                prob=model.predict_proba(df_params)
             st.success('Done!')
             if result == 0:
                 st.write(f'The match result prediction: {home_team} wins the match!')   
@@ -212,6 +235,7 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
 
 
 
