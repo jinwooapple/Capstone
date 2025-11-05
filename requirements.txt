@@ -9,3 +9,5 @@ streamlit
 joblib
 numpy
 scikit-learn==1.6.1
+torch==2.5.1
+pytorch-tabnet==4.1.0
