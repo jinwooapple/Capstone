@@ -1,6 +1,6 @@
 asyncio
 aiohttp
-pandas==2.2.2
+pandas
 understat
 numpy==2.0.2
 nest_asyncio
