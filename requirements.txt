@@ -1,6 +1,6 @@
 asyncio
 aiohttp
-pandas
+pandas==2.2.2
 understat
 numpy==2.0.2
 nest_asyncio
@@ -9,5 +9,6 @@ pytz
 streamlit
 joblib
 scikit-learn==1.6.1
-torch==2.5.1
+torch==2.5.1+cpu
 pytorch-tabnet==4.1.0
+sympy==1.13.1
