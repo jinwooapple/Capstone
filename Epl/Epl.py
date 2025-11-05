@@ -3,7 +3,7 @@ import asyncio
 import json
 from understat_crawling2 import get_game_df
 from datetime import datetime
-import joblib
+#import joblib
 import numpy as np
 import streamlit as st
 #import os
@@ -235,6 +235,7 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
 
 
 
