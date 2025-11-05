@@ -7,5 +7,5 @@ datetime
 pytz
 streamlit
 joblib
-numpy==2.0.2
+numpy
 scikit-learn==1.6.1
