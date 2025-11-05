@@ -183,6 +183,7 @@ def epl():
                           'PSH':[num2],'HSRA':[HSRA], 'ASRA':[ASRA]
                 }
                 df_params=pd.DataFrame(df_params)
+                params=df_params.values
 
                 # 모델 불러와서 변수 넣고 예측하기
                 # model = joblib.load('Epl/model.joblib')
@@ -208,8 +209,8 @@ def epl():
                 model.load_model("Epl/tabnet_5759.zip")
                 # 모드 전환
                 model.network.eval()
-                result=model.predict(df_params).item()
-                prob=model.predict_proba(df_params)
+                result=model.predict(params).item()
+                prob=model.predict_proba(params)
             st.success('Done!')
             if result == 0:
                 st.write(f'The match result prediction: {home_team} wins the match!!')   
@@ -235,6 +236,7 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
 
 
 
