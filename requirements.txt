@@ -2,11 +2,12 @@ asyncio
 aiohttp
 pandas
 understat
-numpy
+numpy==2.0.2
 nest_asyncio
 datetime
 pytz
 streamlit
 joblib
 scikit-learn==1.6.1
-
+torch==2.5.1
+pytorch-tabnet==4.1.0
