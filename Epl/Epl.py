@@ -204,8 +204,8 @@ def epl():
                 )
 
                 # state_dict 로드
-                model.network.load_state_dict(torch.load("Epl/tabnet_model_5759.pth", map_location='cpu'))
-
+                # model.network.load_state_dict(torch.load("Epl/tabnet_model_5759.pth", map_location='cpu'))
+                model.load_model("Epl/tabnet_5759.zip")
                 # 모드 전환
                 model.network.eval()
                 result=model.predict(df_params).item()
@@ -235,6 +235,7 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
 
 
 
