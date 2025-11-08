@@ -162,10 +162,10 @@ def epl():
         col1, col2 = st.columns(2)  # 한 줄에 두 컬럼으로 배치
 
         # 첫 번째 숫자 입력 칸
-        num1 = col1.number_input("B365H", step=0.01)
+        num1 = col1.number_input("Bet365 Home Odds", step=0.01)
 
         # 두 번째 숫자 입력 칸
-        num2 = col2.number_input("PSH", step=0.01)
+        num2 = col2.number_input("Pinnacle Home Odds", step=0.01)
 
 
 
@@ -265,6 +265,7 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
 
 
 
