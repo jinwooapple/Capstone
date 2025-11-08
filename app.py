@@ -72,7 +72,7 @@ def epl():
     #st.image('EPL/logo.png',width=200)
 
     st.title('Premier League Football Match Outcome Predictor')
-    st.info("You can get match info from here(https://oddspedia.com/football/england/premier-league/odds)")
+    st.info("You can get match info from [here](https://oddspedia.com/football/england/premier-league/odds)")
 
     # Note_message = """The model has been trained on 25 years of historical results (1999-2024). It makes predictions based on past encounters between the teams and their current form. Please note that these predictions are not guaranteed to be accurate and should be used as a guide rather than a definitive forecast. Factors not accounted for by the model can influence match outcomes."""
     
@@ -266,6 +266,7 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
 
 
 
