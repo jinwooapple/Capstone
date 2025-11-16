@@ -190,7 +190,8 @@ def epl():
                 # scaler = joblib.load('Epl/scaler.joblib')
                 # df_scaled=scaler.transform(df_params)
                 # result=model.predict(df_scaled).item()
-
+                weight = pd.read_csv("Epl/optimized_weights.csv")
+                w0, w1, w2 = weight.iloc[0,1], weight.iloc[0,2], weight.iloc[0,3]
                 # TabNet 모델
                 model = TabNetClassifier(
                             n_d=2,
@@ -209,8 +210,17 @@ def epl():
                 model.load_model("Epl/tabnet_5759.zip")
                 # 모드 전환
                 model.network.eval()
-                result=model.predict(params).item()
+                # result=model.predict(params).item()
                 prob=model.predict_proba(params)
+                adjusted_prob = np.array([
+                        prob[:, 0] * w0,
+                        prob[:, 1] * w1,
+                        prob[:, 2] * w2
+                    ]).T # (N, 3) 형태로 변환
+
+                # 가장 높은 조정된 확률을 가진 클래스를 예측값으로 선택
+                result = np.argmax(adjusted_prob, axis=1)
+                sum = np.sum(adjusted_prob)
             st.success('Done!')
             if result == 0:
                 st.write(f'The match result prediction: {home_team} wins the match!!')   
@@ -225,9 +235,9 @@ def epl():
         
         else:
              st.write('Please enter both team names.')
-        st.write(f'Home({home_team}) Win: {prob[0,0]:.2f}')
-        st.write(f'Away({away_team}) Win: {prob[0,1]:.2f}')
-        st.write(f'Draw: {prob[0,2]:.2f}')
+        st.write(f'Home({home_team}) Win: {(adjusted_prob[0,0]/sum):.2f}')
+        st.write(f'Away({away_team}) Win: {(adjusted_prob[0,1]/sum):.2f}')
+        st.write(f'Draw: {(adjusted_prob[0,2]/sum):.2f}')
                 
 
 
@@ -239,6 +249,7 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
 
 
 
