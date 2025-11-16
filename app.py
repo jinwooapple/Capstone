@@ -71,8 +71,7 @@ def epl():
     # Load the logo
     #st.image('EPL/logo.png',width=200)
 
-    st.title('Premier League Match Outcome Predictor')
-    st.info("You can get match info & odds from [here.](https://oddspedia.com/football/england/premier-league/odds)")
+    st.title('Premier League Football Match Outcome Predictor')
 
     # Note_message = """The model has been trained on 25 years of historical results (1999-2024). It makes predictions based on past encounters between the teams and their current form. Please note that these predictions are not guaranteed to be accurate and should be used as a guide rather than a definitive forecast. Factors not accounted for by the model can influence match outcomes."""
     
@@ -84,7 +83,7 @@ def epl():
     # ======================
     # 날짜와 시간 선택
     # ======================
-     
+
 
     with st.container():
         col1, col2 = st.columns(2)  # 한 줄에 두 컬럼으로 배치
@@ -163,10 +162,10 @@ def epl():
         col1, col2 = st.columns(2)  # 한 줄에 두 컬럼으로 배치
 
         # 첫 번째 숫자 입력 칸
-        num1 = col1.number_input("Bet365 Home Odds", step=0.01)
+        num1 = col1.number_input("B365H", step=0.01)
 
         # 두 번째 숫자 입력 칸
-        num2 = col2.number_input("Pinnacle Home Odds", step=0.01)
+        num2 = col2.number_input("PSH", step=0.01)
 
 
 
@@ -217,7 +216,8 @@ def epl():
                 # scaler = joblib.load('Epl/scaler.joblib')
                 # df_scaled=scaler.transform(df_params)
                 # result=model.predict(df_scaled).item()
-
+                weight = pd.read_csv("Epl/optimized_weights.csv")
+                w0, w1, w2 = weight.iloc[0,1], weight.iloc[0,2], weight.iloc[0,3]
                 # TabNet 모델
                 model = TabNetClassifier(
                             n_d=2,
@@ -236,25 +236,34 @@ def epl():
                 model.load_model("Epl/tabnet_5759.zip")
                 # 모드 전환
                 model.network.eval()
-                result=model.predict(params).item()
+                # result=model.predict(params).item()
                 prob=model.predict_proba(params)
+                adjusted_prob = np.array([
+                        prob[:, 0] * w0,
+                        prob[:, 1] * w1,
+                        prob[:, 2] * w2
+                    ]).T # (N, 3) 형태로 변환
+
+                # 가장 높은 조정된 확률을 가진 클래스를 예측값으로 선택
+                result = np.argmax(adjusted_prob, axis=1)
+                sum = np.sum(adjusted_prob)
             st.success('Done!')
             if result == 0:
-                st.write(f'The match result prediction: {home_team} wins the match!!')   
+                st.write(f'The match result prediction: {home_team} wins the match!')   
                 st.balloons()
 
             elif result == 1:
-                st.write(f'The match result prediction: {away_team} wins the match!!')
+                st.write(f'The match result prediction: {away_team} wins the match!')
                 st.balloons()
             else:
-                st.write(f'The match result prediction: The match ends in a draw!!')    
+                st.write(f'The match result prediction: The match ends in a draw!')    
                 
         
         else:
              st.write('Please enter both team names.')
-        st.write(f'Home({home_team}) Win: {prob[0,0]:.2f}')
-        st.write(f'Away({away_team}) Win: {prob[0,1]:.2f}')
-        st.write(f'Draw: {prob[0,2]:.2f}')
+        st.write(f'Home({home_team}) Win: {(adjusted_prob[0,0]/sum):.2f}')
+        st.write(f'Away({away_team}) Win: {(adjusted_prob[0,1]/sum):.2f}')
+        st.write(f'Draw: {(adjusted_prob[0,2]/sum):.2f}')
                 
 
 
@@ -266,9 +275,6 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
-
-
-
 
 
 
