@@ -223,14 +223,14 @@ def epl():
                 sum = np.sum(adjusted_prob)
             st.success('Done!')
             if result == 0:
-                st.write(f'The match result prediction: {home_team} wins the match!!')   
+                st.write(f'The match result prediction: {home_team} wins the match!')   
                 st.balloons()
 
             elif result == 1:
-                st.write(f'The match result prediction: {away_team} wins the match!!')
+                st.write(f'The match result prediction: {away_team} wins the match!')
                 st.balloons()
             else:
-                st.write(f'The match result prediction: The match ends in a draw!!')    
+                st.write(f'The match result prediction: The match ends in a draw!')    
                 
         
         else:
@@ -249,6 +249,7 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
 
 
 
