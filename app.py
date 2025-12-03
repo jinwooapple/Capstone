@@ -101,7 +101,7 @@ def epl():
     # ======================
 
 
-    x = pd.read_csv('Epl/PL_player.csv',encoding="utf-8")
+    x = pd.read_csv('Epl/PL_player2.csv',encoding="utf-8")
 
 
     # 두 컬럼 생성 (왼쪽: 홈팀, 오른쪽: 원정팀)
@@ -276,6 +276,7 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
 
 
 
