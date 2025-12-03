@@ -196,7 +196,7 @@ def epl():
                 game_df['date']=(game_df['date']).dt.date
                 away_prob_5=pt.prob_5(game_df, processed_date, away_team)
 
-                game_df=pd.read_csv("https://www.football-data.co.uk/mmz4281/2425/E0.csv")
+                game_df=pd.read_csv("https://www.football-data.co.uk/mmz4281/2526/E0.csv")
                 game_df['HomeTeam'] = game_df['HomeTeam'].apply(pt.standardize_team_name)
                 game_df['AwayTeam'] = game_df['AwayTeam'].apply(pt.standardize_team_name)
                 game_df['Date'] = pd.to_datetime(game_df['Date'], format='%d/%m/%Y')
@@ -276,6 +276,7 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
 
 
 
