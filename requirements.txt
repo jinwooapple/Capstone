@@ -1,7 +1,7 @@
 asyncio
 aiohttp
 pandas
-understat
+understat==0.1.13
 nest_asyncio
 datetime
 pytz
