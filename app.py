@@ -189,7 +189,7 @@ def epl():
             with st.spinner('Processing...'):
                 processed_date=(pt.t(match_date, match_time)).date() #datetime 반환
 
-                game_df=asyncio.run(get_game_df('epl',2024))
+                game_df=asyncio.run(get_game_df('epl',2025))
                 game_df['home_team'] = game_df['home_team'].str.lower()
                 game_df['away_team'] = game_df['away_team'].str.lower()
                 game_df['date']=pd.to_datetime(game_df['date'])
@@ -276,6 +276,7 @@ if __name__ == "__main__":
 
 
 # streamlit run "C:\Users\박진우\Desktop\Cap\app.py"
+
 
 
 
